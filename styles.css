@@ -730,8 +730,6 @@ a.card-value:hover {
     border-color: #3b82f6;
 }
 
-/* Responsive Design (Mobile Devices ke liye) */
-@media (max-width: 768px) {}
 
 /* ───── FOOTER ───── */
 /* Footer Base Styling */
@@ -1160,7 +1158,12 @@ a.card-value:hover {
         gap: 5px;
     }
 }
-
+@media (max-width:845px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
 
 @media (max-width:500px) {
     .hero-badge {
