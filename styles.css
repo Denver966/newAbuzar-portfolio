@@ -1153,6 +1153,15 @@ a.card-value:hover {
     .nav-btn-hire {
         font-size: 13px;
         padding: 6px 14px;
+        margin-left: 20px;
     }
+    .nav-actions{
+        gap: 5px;
+    }
+}
 
+@media screen and (max-width:395px) {
+    .portfolio-navbar{
+        padding: 5px;
+    }
 }
