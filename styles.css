@@ -1065,7 +1065,7 @@ a.card-value:hover {
 }
 
 /* ───── RESPONSIVE ───── */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .hero {
         flex-direction: column;
         padding: 3rem 1.5rem;
