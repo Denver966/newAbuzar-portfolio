@@ -1065,7 +1065,7 @@ a.card-value:hover {
 }
 
 /* ───── RESPONSIVE ───── */
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .hero {
         flex-direction: column;
         padding: 3rem 1.5rem;
@@ -1161,14 +1161,37 @@ a.card-value:hover {
     }
 }
 
-@media (max-width:395px) {
-    .portfolio-navbar {
-        padding: 5px;
-    }
-}
 
 @media (max-width:500px) {
     .hero-badge {
         margin-top: 60px;
+    }
+
+    .nav-btn-hire {
+        margin-left: 5px;
+        padding: 6px;
+    }
+
+    .info-card {
+        flex-wrap: wrap;
+    }
+    .skills-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:395px) {
+    .portfolio-navbar {
+        padding: 5px;
+    }
+
+    .nav-container {
+        padding: 5px;
+    }
+    .nav-brand{
+        font-size: 18px;
+    }
+    .nav-btn-hire{
+        font-size: 11px;
     }
 }
